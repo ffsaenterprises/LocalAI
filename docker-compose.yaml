@@ -13,7 +13,7 @@ services:
       - IMAGE_TYPE=core
       - BASE_IMAGE=ubuntu:22.04
     ports:
-      - 8888:8888
+      - 8080:8888
     env_file:
       - .env
     environment:
