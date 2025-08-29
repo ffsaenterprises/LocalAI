@@ -252,7 +252,7 @@ COPY ./Makefile .
 COPY ./backend ./backend
 COPY ./go.mod .
 COPY ./go.sum .
-COPY ./.git ./.git
+#COPY ./.git ./.git
 
 # Some of the Go backends use libs from the main src, we could further optimize the caching by building the CPP backends before here
 COPY ./pkg/grpc ./pkg/grpc
